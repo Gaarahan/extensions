@@ -556,31 +556,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Manga18Me",
-    "pkg": "eu.kanade.tachiyomi.extension.all.manga18me",
-    "apk": "tachiyomi-all.manga18me-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Manga18.me",
-        "lang": "all",
-        "id": "1353606378087565589",
-        "baseUrl": "https://manga18.me",
-        "versionId": 1
-      },
-      {
-        "name": "Manga18.me",
-        "lang": "en",
-        "id": "6244055465910932489",
-        "baseUrl": "https://manga18.me",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Manga Ball",
     "pkg": "eu.kanade.tachiyomi.extension.all.mangaball",
     "apk": "tachiyomi-all.mangaball-v1.4.1.apk",
@@ -601,24 +576,6 @@
         "lang": "zh",
         "id": "1555837267200004397",
         "baseUrl": "https://mangaball.net",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: MangaCrazy",
-    "pkg": "eu.kanade.tachiyomi.extension.all.mangacrazy",
-    "apk": "tachiyomi-all.mangacrazy-v1.4.45.apk",
-    "lang": "all",
-    "code": 45,
-    "version": "1.4.45",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "MangaCrazy",
-        "lang": "all",
-        "id": "6812667365653325714",
-        "baseUrl": "https://mangacrazy.net",
         "versionId": 1
       }
     ]
@@ -999,38 +956,6 @@
         "lang": "en",
         "id": "6318378620301107421",
         "baseUrl": "https://myreadingmanga.info",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: nHentai.com (unoriginal)",
-    "pkg": "eu.kanade.tachiyomi.extension.all.nhentaicom",
-    "apk": "tachiyomi-all.nhentaicom-v1.4.9.apk",
-    "lang": "all",
-    "code": 9,
-    "version": "1.4.9",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "all",
-        "id": "9165839893600661480",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "zh",
-        "id": "8504927104562262528",
-        "baseUrl": "https://nhentai.com",
-        "versionId": 1
-      },
-      {
-        "name": "nHentai.com (unoriginal)",
-        "lang": "en",
-        "id": "5591830863732393712",
-        "baseUrl": "https://nhentai.com",
         "versionId": 1
       }
     ]
@@ -1452,24 +1377,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Xasiat Albums",
-    "pkg": "eu.kanade.tachiyomi.extension.all.xasiatalbums",
-    "apk": "tachiyomi-all.xasiatalbums-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "XAsiat Albums",
-        "lang": "all",
-        "id": "7187893778775685546",
-        "baseUrl": "https://www.xasiat.com/albums",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: xkcd",
     "pkg": "eu.kanade.tachiyomi.extension.all.xkcd",
     "apk": "tachiyomi-all.xkcd-v1.4.16.apk",
@@ -1833,24 +1740,6 @@
         "id": "427734044452073936",
         "baseUrl": "https://athreascans.com",
         "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Atsumaru",
-    "pkg": "eu.kanade.tachiyomi.extension.en.atsumaru",
-    "apk": "tachiyomi-en.atsumaru-v1.4.8.apk",
-    "lang": "en",
-    "code": 8,
-    "version": "1.4.8",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Atsumaru",
-        "lang": "en",
-        "id": "2327480808438768017",
-        "baseUrl": "https://atsu.moe",
-        "versionId": 2
       }
     ]
   },
@@ -2508,24 +2397,6 @@
         "lang": "en",
         "id": "5133553291675008671",
         "baseUrl": "https://18porncomic.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: 8Muses",
-    "pkg": "eu.kanade.tachiyomi.extension.en.eightmuses",
-    "apk": "tachiyomi-en.eightmuses-v1.4.2.apk",
-    "lang": "en",
-    "code": 2,
-    "version": "1.4.2",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "8Muses",
-        "lang": "en",
-        "id": "1802675169972965535",
-        "baseUrl": "https://comics.8muses.com",
         "versionId": 1
       }
     ]
