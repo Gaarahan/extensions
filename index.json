@@ -7603,24 +7603,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Twicomi",
-    "pkg": "eu.kanade.tachiyomi.extension.all.twicomi",
-    "apk": "tachiyomi-all.twicomi-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Twicomi",
-        "lang": "all",
-        "id": "4589056979500242728",
-        "baseUrl": "https://twicomi.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Vinne Veritas - CCC",
     "pkg": "eu.kanade.tachiyomi.extension.all.vinnieVeritas",
     "apk": "tachiyomi-all.vinnieVeritas-v1.4.2.apk",
