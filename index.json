@@ -18,24 +18,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: BaoBua",
-    "pkg": "eu.kanade.tachiyomi.extension.all.baobua",
-    "apk": "tachiyomi-all.baobua-v1.4.3.apk",
-    "lang": "all",
-    "code": 3,
-    "version": "1.4.3",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "BaoBua",
-        "lang": "all",
-        "id": "514187608699312366",
-        "baseUrl": "https://baobua.net",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Buon Dua",
     "pkg": "eu.kanade.tachiyomi.extension.all.buondua",
     "apk": "tachiyomi-all.buondua-v1.4.6.apk",
@@ -189,24 +171,6 @@
         "lang": "en",
         "id": "5328240584854276436",
         "baseUrl": "https://www.commitstrip.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Coomer",
-    "pkg": "eu.kanade.tachiyomi.extension.all.coomer",
-    "apk": "tachiyomi-all.coomer-v1.4.23.apk",
-    "lang": "all",
-    "code": 23,
-    "version": "1.4.23",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Coomer",
-        "lang": "all",
-        "id": "8715899195746116471",
-        "baseUrl": "https://coomer.st",
         "versionId": 1
       }
     ]
@@ -458,31 +422,6 @@
         "lang": "en",
         "id": "1334492919632049277",
         "baseUrl": "https://holoearth.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: IMHentai",
-    "pkg": "eu.kanade.tachiyomi.extension.all.imhentai",
-    "apk": "tachiyomi-all.imhentai-v1.4.20.apk",
-    "lang": "all",
-    "code": 20,
-    "version": "1.4.20",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "IMHentai",
-        "lang": "en",
-        "id": "1797754663718263026",
-        "baseUrl": "https://imhentai.xxx",
-        "versionId": 1
-      },
-      {
-        "name": "IMHentai",
-        "lang": "all",
-        "id": "3395462671769287908",
-        "baseUrl": "https://imhentai.xxx",
         "versionId": 1
       }
     ]
@@ -1731,24 +1670,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: XGMN",
-    "pkg": "eu.kanade.tachiyomi.extension.all.xgmn",
-    "apk": "tachiyomi-all.xgmn-v1.4.2.apk",
-    "lang": "all",
-    "code": 2,
-    "version": "1.4.2",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "性感美女",
-        "lang": "all",
-        "id": "2870097240566002663",
-        "baseUrl": "http://xgmn8.vip",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: xkcd",
     "pkg": "eu.kanade.tachiyomi.extension.all.xkcd",
     "apk": "tachiyomi-all.xkcd-v1.4.16.apk",
@@ -2350,24 +2271,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Clone Manga",
-    "pkg": "eu.kanade.tachiyomi.extension.en.clonemanga",
-    "apk": "tachiyomi-en.clonemanga-v1.4.2.apk",
-    "lang": "en",
-    "code": 2,
-    "version": "1.4.2",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Clone Manga",
-        "lang": "en",
-        "id": "5740849136135469941",
-        "baseUrl": "https://manga.clone-army.org/",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Clown Corps",
     "pkg": "eu.kanade.tachiyomi.extension.en.clowncorps",
     "apk": "tachiyomi-en.clowncorps-v1.4.3.apk",
@@ -2489,24 +2392,6 @@
         "lang": "en",
         "id": "7537715367149829912",
         "baseUrl": "https://comix.to",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: CulturedWorks",
-    "pkg": "eu.kanade.tachiyomi.extension.en.culturedworks",
-    "apk": "tachiyomi-en.culturedworks-v1.4.30.apk",
-    "lang": "en",
-    "code": 30,
-    "version": "1.4.30",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "CulturedWorks",
-        "lang": "en",
-        "id": "1019943013243665332",
-        "baseUrl": "https://culturedworks.com",
         "versionId": 1
       }
     ]
@@ -6909,24 +6794,6 @@
         "lang": "en",
         "id": "4515785594129735633",
         "baseUrl": "https://pawmanga.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Petrotechsociety",
-    "pkg": "eu.kanade.tachiyomi.extension.en.petrotechsociety",
-    "apk": "tachiyomi-en.petrotechsociety-v1.4.45.apk",
-    "lang": "en",
-    "code": 45,
-    "version": "1.4.45",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Petrotechsociety",
-        "lang": "en",
-        "id": "20045885295638720",
-        "baseUrl": "https://www.petrotechsociety.org",
         "versionId": 1
       }
     ]
