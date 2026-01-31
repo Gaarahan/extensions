@@ -36,24 +36,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: 3600000 Beauty",
-    "pkg": "eu.kanade.tachiyomi.extension.all.beauty3600000",
-    "apk": "tachiyomi-all.beauty3600000-v1.4.2.apk",
-    "lang": "all",
-    "code": 2,
-    "version": "1.4.2",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "3600000 Beauty",
-        "lang": "all",
-        "id": "5498091984644576825",
-        "baseUrl": "https://3600000.xyz",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Buon Dua",
     "pkg": "eu.kanade.tachiyomi.extension.all.buondua",
     "apk": "tachiyomi-all.buondua-v1.4.6.apk",
@@ -513,24 +495,6 @@
         "lang": "other",
         "id": "2013845246758512290",
         "baseUrl": "https://cubari.moe",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Danbooru",
-    "pkg": "eu.kanade.tachiyomi.extension.all.danbooru",
-    "apk": "tachiyomi-all.danbooru-v1.4.3.apk",
-    "lang": "all",
-    "code": 3,
-    "version": "1.4.3",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Danbooru",
-        "lang": "all",
-        "id": "7602260701584916302",
-        "baseUrl": "https://danbooru.donmai.us",
         "versionId": 1
       }
     ]
@@ -1449,52 +1413,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: HentaiFox",
-    "pkg": "eu.kanade.tachiyomi.extension.all.hentaifox",
-    "apk": "tachiyomi-all.hentaifox-v1.4.12.apk",
-    "lang": "all",
-    "code": 12,
-    "version": "1.4.12",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HentaiFox",
-        "lang": "en",
-        "id": "7945033982379409892",
-        "baseUrl": "https://hentaifox.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiFox",
-        "lang": "ja",
-        "id": "8640201438684762638",
-        "baseUrl": "https://hentaifox.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiFox",
-        "lang": "zh",
-        "id": "3252050349835097844",
-        "baseUrl": "https://hentaifox.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiFox",
-        "lang": "ko",
-        "id": "2146024794445748144",
-        "baseUrl": "https://hentaifox.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiFox",
-        "lang": "all",
-        "id": "2697587119837846427",
-        "baseUrl": "https://hentaifox.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: HentaiHand",
     "pkg": "eu.kanade.tachiyomi.extension.all.hentaihand",
     "apk": "tachiyomi-all.hentaihand-v1.4.9.apk",
@@ -1882,24 +1800,6 @@
         "id": "1002111777562806129",
         "baseUrl": "https://www.izneo.com/fr/webtoon",
         "versionId": 2
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Kemono",
-    "pkg": "eu.kanade.tachiyomi.extension.all.kemono",
-    "apk": "tachiyomi-all.kemono-v1.4.24.apk",
-    "lang": "all",
-    "code": 24,
-    "version": "1.4.24",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Kemono",
-        "lang": "all",
-        "id": "2011050813940802605",
-        "baseUrl": "https://kemono.cr",
-        "versionId": 1
       }
     ]
   },
@@ -5382,38 +5282,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Pururin",
-    "pkg": "eu.kanade.tachiyomi.extension.all.pururin",
-    "apk": "tachiyomi-all.pururin-v1.4.10.apk",
-    "lang": "all",
-    "code": 10,
-    "version": "1.4.10",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Pururin",
-        "lang": "all",
-        "id": "4326152278746463981",
-        "baseUrl": "https://pururin.me",
-        "versionId": 1
-      },
-      {
-        "name": "Pururin",
-        "lang": "en",
-        "id": "2221515250486218861",
-        "baseUrl": "https://pururin.me",
-        "versionId": 1
-      },
-      {
-        "name": "Pururin",
-        "lang": "ja",
-        "id": "995946880114959182",
-        "baseUrl": "https://pururin.me",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: QToon",
     "pkg": "eu.kanade.tachiyomi.extension.all.qtoon",
     "apk": "tachiyomi-all.qtoon-v1.4.1.apk",
@@ -6666,24 +6534,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Xiutaku",
-    "pkg": "eu.kanade.tachiyomi.extension.all.xiutaku",
-    "apk": "tachiyomi-all.xiutaku-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Xiutaku",
-        "lang": "all",
-        "id": "6520733892888572506",
-        "baseUrl": "https://xiutaku.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: xkcd",
     "pkg": "eu.kanade.tachiyomi.extension.all.xkcd",
     "apk": "tachiyomi-all.xkcd-v1.4.16.apk",
@@ -6725,24 +6575,6 @@
         "lang": "ru",
         "id": "3742763978853704441",
         "baseUrl": "https://xkcd.ru",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Yabai",
-    "pkg": "eu.kanade.tachiyomi.extension.all.yabai",
-    "apk": "tachiyomi-all.yabai-v1.4.2.apk",
-    "lang": "all",
-    "code": 2,
-    "version": "1.4.2",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Yabai",
-        "lang": "all",
-        "id": "1928970119194827182",
-        "baseUrl": "https://yabai.si",
         "versionId": 1
       }
     ]
