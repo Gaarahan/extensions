@@ -445,67 +445,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: LANraragi",
-    "pkg": "eu.kanade.tachiyomi.extension.all.lanraragi",
-    "apk": "tachiyomi-all.lanraragi-v1.4.20.apk",
-    "lang": "all",
-    "code": 20,
-    "version": "1.4.20",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "LANraragi (1)",
-        "lang": "all",
-        "id": "4482480338677079857",
-        "baseUrl": "http://127.0.0.1:3000",
-        "versionId": 1
-      },
-      {
-        "name": "LANraragi (2)",
-        "lang": "all",
-        "id": "6188058704030343819",
-        "baseUrl": "http://127.0.0.1:3000",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: League of Legends",
-    "pkg": "eu.kanade.tachiyomi.extension.all.leagueoflegends",
-    "apk": "tachiyomi-all.leagueoflegends-v1.4.2.apk",
-    "lang": "all",
-    "code": 2,
-    "version": "1.4.2",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "League of Legends",
-        "lang": "en",
-        "id": "5421383187922044761",
-        "baseUrl": "https://universe.leagueoflegends.com/en_us/comic/",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Little Garden",
-    "pkg": "eu.kanade.tachiyomi.extension.all.littlegarden",
-    "apk": "tachiyomi-all.littlegarden-v1.4.3.apk",
-    "lang": "all",
-    "code": 3,
-    "version": "1.4.3",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Little Garden",
-        "lang": "all",
-        "id": "4646674279369583651",
-        "baseUrl": "https://littlexgarden.com/",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Magical Translators",
     "pkg": "eu.kanade.tachiyomi.extension.all.magicaltranslators",
     "apk": "tachiyomi-all.magicaltranslators-v1.4.7.apk",
@@ -519,63 +458,6 @@
         "lang": "en",
         "id": "4033172788130537982",
         "baseUrl": "https://mahoushoujobu.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Manga Ball",
-    "pkg": "eu.kanade.tachiyomi.extension.all.mangaball",
-    "apk": "tachiyomi-all.mangaball-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Manga Ball",
-        "lang": "en",
-        "id": "1448906013733277368",
-        "baseUrl": "https://mangaball.net",
-        "versionId": 1
-      },
-      {
-        "name": "Manga Ball",
-        "lang": "zh",
-        "id": "1555837267200004397",
-        "baseUrl": "https://mangaball.net",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: MangaDex",
-    "pkg": "eu.kanade.tachiyomi.extension.all.mangadex",
-    "apk": "tachiyomi-all.mangadex-v1.4.205.apk",
-    "lang": "all",
-    "code": 205,
-    "version": "1.4.205",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "MangaDex",
-        "lang": "en",
-        "id": "2499283573021220255",
-        "baseUrl": "https://mangadex.org",
-        "versionId": 1
-      },
-      {
-        "name": "MangaDex",
-        "lang": "zh-Hans",
-        "id": "5148895169070562838",
-        "baseUrl": "https://mangadex.org",
-        "versionId": 1
-      },
-      {
-        "name": "MangaDex",
-        "lang": "zh-Hant",
-        "id": "1493666528525752601",
-        "baseUrl": "https://mangadex.org",
         "versionId": 1
       }
     ]
@@ -1202,110 +1084,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Tappytoon",
-    "pkg": "eu.kanade.tachiyomi.extension.all.tappytoon",
-    "apk": "tachiyomi-all.tappytoon-v1.4.10.apk",
-    "lang": "all",
-    "code": 10,
-    "version": "1.4.10",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Tappytoon",
-        "lang": "en",
-        "id": "7049142072741547166",
-        "baseUrl": "https://www.tappytoon.com/en",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: The Library of Ohara",
-    "pkg": "eu.kanade.tachiyomi.extension.all.thelibraryofohara",
-    "apk": "tachiyomi-all.thelibraryofohara-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "The Library of Ohara",
-        "lang": "en",
-        "id": "2727140669803764425",
-        "baseUrl": "https://thelibraryofohara.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Thunder Scans",
-    "pkg": "eu.kanade.tachiyomi.extension.all.thunderscans",
-    "apk": "tachiyomi-all.thunderscans-v1.4.42.apk",
-    "lang": "all",
-    "code": 42,
-    "version": "1.4.42",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Thunder Scans",
-        "lang": "en",
-        "id": "2848420679472350044",
-        "baseUrl": "https://en-thunderscans.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Toomics",
-    "pkg": "eu.kanade.tachiyomi.extension.all.toomics",
-    "apk": "tachiyomi-all.toomics-v1.4.9.apk",
-    "lang": "all",
-    "code": 9,
-    "version": "1.4.9",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Toomics (Only free chapters)",
-        "lang": "en",
-        "id": "7004582542854505662",
-        "baseUrl": "https://global.toomics.com",
-        "versionId": 1
-      },
-      {
-        "name": "Toomics (Only free chapters)",
-        "lang": "zh-Hans",
-        "id": "2191753978421234924",
-        "baseUrl": "https://global.toomics.com",
-        "versionId": 1
-      },
-      {
-        "name": "Toomics (Only free chapters)",
-        "lang": "zh-Hant",
-        "id": "371640888113435809",
-        "baseUrl": "https://global.toomics.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Vinne Veritas - CCC",
-    "pkg": "eu.kanade.tachiyomi.extension.all.vinnieVeritas",
-    "apk": "tachiyomi-all.vinnieVeritas-v1.4.2.apk",
-    "lang": "all",
-    "code": 2,
-    "version": "1.4.2",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Vinnie Veritas - CCC",
-        "lang": "en",
-        "id": "9005452006043030878",
-        "baseUrl": "https://vinnieveritas.com/",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: WeebDex",
     "pkg": "eu.kanade.tachiyomi.extension.all.weebdex",
     "apk": "tachiyomi-all.weebdex-v1.4.6.apk",
@@ -1340,49 +1118,6 @@
         "lang": "en",
         "id": "371958378926280825",
         "baseUrl": "https://weebdex.org",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: xkcd",
-    "pkg": "eu.kanade.tachiyomi.extension.all.xkcd",
-    "apk": "tachiyomi-all.xkcd-v1.4.16.apk",
-    "lang": "all",
-    "code": 16,
-    "version": "1.4.16",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "xkcd",
-        "lang": "en",
-        "id": "1538249443376436084",
-        "baseUrl": "https://xkcd.com",
-        "versionId": 1
-      },
-      {
-        "name": "xkcd",
-        "lang": "zh",
-        "id": "8162821425156695837",
-        "baseUrl": "https://xkcd.tw",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Yaoi Manga Online",
-    "pkg": "eu.kanade.tachiyomi.extension.all.yaoimangaonline",
-    "apk": "tachiyomi-all.yaoimangaonline-v1.4.4.apk",
-    "lang": "all",
-    "code": 4,
-    "version": "1.4.4",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Yaoi Manga Online",
-        "lang": "all",
-        "id": "7988826691692266469",
-        "baseUrl": "https://yaoimangaonline.com",
         "versionId": 1
       }
     ]
@@ -1748,24 +1483,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Bakkin Self-hosted",
-    "pkg": "eu.kanade.tachiyomi.extension.en.bakkinselfhosted",
-    "apk": "tachiyomi-en.bakkinselfhosted-v1.4.7.apk",
-    "lang": "en",
-    "code": 7,
-    "version": "1.4.7",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Bakkin Self-hosted",
-        "lang": "en",
-        "id": "6251873330157357206",
-        "baseUrl": "http://127.0.0.1/",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: BatCave",
     "pkg": "eu.kanade.tachiyomi.extension.en.batcave",
     "apk": "tachiyomi-en.batcave-v1.4.5.apk",
@@ -1779,24 +1496,6 @@
         "lang": "en",
         "id": "7422099479605463706",
         "baseUrl": "https://batcave.biz",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Battle In 5 Seconds After Meeting",
-    "pkg": "eu.kanade.tachiyomi.extension.en.battleinfivesecondsaftermeeting",
-    "apk": "tachiyomi-en.battleinfivesecondsaftermeeting-v1.4.45.apk",
-    "lang": "en",
-    "code": 45,
-    "version": "1.4.45",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Battle In 5 Seconds After Meeting",
-        "lang": "en",
-        "id": "2529980242070778875",
-        "baseUrl": "https://www.deatte5.com",
         "versionId": 1
       }
     ]
