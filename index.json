@@ -341,38 +341,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: GlobalComix",
-    "pkg": "eu.kanade.tachiyomi.extension.all.globalcomix",
-    "apk": "tachiyomi-all.globalcomix-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "GlobalComix",
-        "lang": "zh-Hans",
-        "id": "7151191693036508367",
-        "baseUrl": "https://globalcomix.com",
-        "versionId": 1
-      },
-      {
-        "name": "GlobalComix",
-        "lang": "en",
-        "id": "1702911211040495914",
-        "baseUrl": "https://globalcomix.com",
-        "versionId": 1
-      },
-      {
-        "name": "GlobalComix",
-        "lang": "zh-Hant",
-        "id": "3451257781273481191",
-        "baseUrl": "https://globalcomix.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Grabber Zone",
     "pkg": "eu.kanade.tachiyomi.extension.all.grabberzone",
     "apk": "tachiyomi-all.grabberzone-v1.4.45.apk",
@@ -892,45 +860,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: MangaPark",
-    "pkg": "eu.kanade.tachiyomi.extension.all.mangapark",
-    "apk": "tachiyomi-all.mangapark-v1.4.25.apk",
-    "lang": "all",
-    "code": 25,
-    "version": "1.4.25",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "MangaPark",
-        "lang": "zh",
-        "id": "2551887951903036370",
-        "baseUrl": "https://mangapark.net",
-        "versionId": 2
-      },
-      {
-        "name": "MangaPark",
-        "lang": "zh-Hans",
-        "id": "8363718895979558263",
-        "baseUrl": "https://mangapark.net",
-        "versionId": 2
-      },
-      {
-        "name": "MangaPark",
-        "lang": "zh-Hant",
-        "id": "6370855516529451708",
-        "baseUrl": "https://mangapark.net",
-        "versionId": 2
-      },
-      {
-        "name": "MangaPark",
-        "lang": "en",
-        "id": "2292947733994124621",
-        "baseUrl": "https://mangapark.net",
-        "versionId": 2
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: MANGA Plus by SHUEISHA",
     "pkg": "eu.kanade.tachiyomi.extension.all.mangaplus",
     "apk": "tachiyomi-all.mangaplus-v1.4.57.apk",
@@ -1224,38 +1153,6 @@
         "lang": "en",
         "id": "6318378620301107421",
         "baseUrl": "https://myreadingmanga.info",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: NamiComi",
-    "pkg": "eu.kanade.tachiyomi.extension.all.namicomi",
-    "apk": "tachiyomi-all.namicomi-v1.4.4.apk",
-    "lang": "all",
-    "code": 4,
-    "version": "1.4.4",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "NamiComi",
-        "lang": "en",
-        "id": "6815287454679474132",
-        "baseUrl": "https://namicomi.com",
-        "versionId": 1
-      },
-      {
-        "name": "NamiComi",
-        "lang": "zh-Hans",
-        "id": "1163192659786040070",
-        "baseUrl": "https://namicomi.com",
-        "versionId": 1
-      },
-      {
-        "name": "NamiComi",
-        "lang": "zh-Hant",
-        "id": "7859611418350123856",
-        "baseUrl": "https://namicomi.com",
         "versionId": 1
       }
     ]
@@ -2885,24 +2782,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Doujin.io - J18",
-    "pkg": "eu.kanade.tachiyomi.extension.en.doujinio",
-    "apk": "tachiyomi-en.doujinio-v1.4.2.apk",
-    "lang": "en",
-    "code": 2,
-    "version": "1.4.2",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Doujin.io - J18",
-        "lang": "en",
-        "id": "2738692054520731722",
-        "baseUrl": "https://doujin.io",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Doujins",
     "pkg": "eu.kanade.tachiyomi.extension.en.doujins",
     "apk": "tachiyomi-en.doujins-v1.4.6.apk",
@@ -3287,24 +3166,6 @@
         "id": "610148674542079240",
         "baseUrl": "https://ezmanga.org",
         "versionId": 4
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Fairy Scans",
-    "pkg": "eu.kanade.tachiyomi.extension.en.fairyscans",
-    "apk": "tachiyomi-en.fairyscans-v1.4.30.apk",
-    "lang": "en",
-    "code": 30,
-    "version": "1.4.30",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Fairy Scans",
-        "lang": "en",
-        "id": "7842496605600859779",
-        "baseUrl": "https://fairyscans.com",
-        "versionId": 1
       }
     ]
   },
