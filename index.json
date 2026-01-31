@@ -36,96 +36,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Comic Growl",
-    "pkg": "eu.kanade.tachiyomi.extension.all.comicgrowl",
-    "apk": "tachiyomi-all.comicgrowl-v1.4.9.apk",
-    "lang": "all",
-    "code": 9,
-    "version": "1.4.9",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Comic Growl",
-        "lang": "all",
-        "id": "299423548273637501",
-        "baseUrl": "https://comic-growl.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Comick (Unoriginal)",
-    "pkg": "eu.kanade.tachiyomi.extension.all.comicklive",
-    "apk": "tachiyomi-all.comicklive-v1.4.3.apk",
-    "lang": "all",
-    "code": 3,
-    "version": "1.4.3",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Comick (Unoriginal)",
-        "lang": "en",
-        "id": "4972933717624256217",
-        "baseUrl": "https://comick.live",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: ComicsKingdom",
-    "pkg": "eu.kanade.tachiyomi.extension.all.comicskingdom",
-    "apk": "tachiyomi-all.comicskingdom-v1.4.2.apk",
-    "lang": "all",
-    "code": 2,
-    "version": "1.4.2",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Comics Kingdom",
-        "lang": "en",
-        "id": "3350274514125477391",
-        "baseUrl": "https://wp.comicskingdom.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Comikey",
-    "pkg": "eu.kanade.tachiyomi.extension.all.comikey",
-    "apk": "tachiyomi-all.comikey-v1.4.3.apk",
-    "lang": "all",
-    "code": 3,
-    "version": "1.4.3",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Comikey",
-        "lang": "en",
-        "id": "2769857481066602061",
-        "baseUrl": "https://comikey.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Commit Strip",
-    "pkg": "eu.kanade.tachiyomi.extension.all.commitstrip",
-    "apk": "tachiyomi-all.commitstrip-v1.4.3.apk",
-    "lang": "all",
-    "code": 3,
-    "version": "1.4.3",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Commit Strip",
-        "lang": "en",
-        "id": "5328240584854276436",
-        "baseUrl": "https://www.commitstrip.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: CosplayTele",
     "pkg": "eu.kanade.tachiyomi.extension.all.cosplaytele",
     "apk": "tachiyomi-all.cosplaytele-v1.4.4.apk",
@@ -139,81 +49,6 @@
         "lang": "all",
         "id": "7395748658970167454",
         "baseUrl": "https://cosplaytele.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Cubari",
-    "pkg": "eu.kanade.tachiyomi.extension.all.cubari",
-    "apk": "tachiyomi-all.cubari-v1.4.26.apk",
-    "lang": "all",
-    "code": 26,
-    "version": "1.4.26",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Cubari",
-        "lang": "en",
-        "id": "6338219619148105941",
-        "baseUrl": "https://cubari.moe",
-        "versionId": 1
-      },
-      {
-        "name": "Cubari",
-        "lang": "all",
-        "id": "1470847599087460255",
-        "baseUrl": "https://cubari.moe",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Dragon Ball Multiverse",
-    "pkg": "eu.kanade.tachiyomi.extension.all.dragonballmultiverse",
-    "apk": "tachiyomi-all.dragonballmultiverse-v1.4.6.apk",
-    "lang": "all",
-    "code": 6,
-    "version": "1.4.6",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Dragon Ball Multiverse",
-        "lang": "en",
-        "id": "5855032551259176250",
-        "baseUrl": "https://www.dragonball-multiverse.com",
-        "versionId": 1
-      },
-      {
-        "name": "Dragon Ball Multiverse",
-        "lang": "zh",
-        "id": "4903395296014438593",
-        "baseUrl": "https://www.dragonball-multiverse.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: E-Hentai",
-    "pkg": "eu.kanade.tachiyomi.extension.all.ehentai",
-    "apk": "tachiyomi-all.ehentai-v1.4.27.apk",
-    "lang": "all",
-    "code": 27,
-    "version": "1.4.27",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "E-Hentai",
-        "lang": "en",
-        "id": "57122881048805941",
-        "baseUrl": "https://e-hentai.org",
-        "versionId": 1
-      },
-      {
-        "name": "E-Hentai",
-        "lang": "zh",
-        "id": "4678440076103929247",
-        "baseUrl": "https://e-hentai.org",
         "versionId": 1
       }
     ]
@@ -255,24 +90,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Grabber Zone",
-    "pkg": "eu.kanade.tachiyomi.extension.all.grabberzone",
-    "apk": "tachiyomi-all.grabberzone-v1.4.45.apk",
-    "lang": "all",
-    "code": 45,
-    "version": "1.4.45",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Grabber Zone",
-        "lang": "all",
-        "id": "7008887237419113673",
-        "baseUrl": "https://grabber.zone",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: HDoujin",
     "pkg": "eu.kanade.tachiyomi.extension.all.hdoujin",
     "apk": "tachiyomi-all.hdoujin-v1.4.1.apk",
@@ -305,24 +122,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Hennojin",
-    "pkg": "eu.kanade.tachiyomi.extension.all.hennojin",
-    "apk": "tachiyomi-all.hennojin-v1.4.2.apk",
-    "lang": "all",
-    "code": 2,
-    "version": "1.4.2",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Hennojin",
-        "lang": "en",
-        "id": "2486465102799235219",
-        "baseUrl": "https://hennojin.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Hentai Cosplay",
     "pkg": "eu.kanade.tachiyomi.extension.all.hentaicosplay",
     "apk": "tachiyomi-all.hentaicosplay-v1.4.7.apk",
@@ -336,24 +135,6 @@
         "lang": "all",
         "id": "3422463439145930309",
         "baseUrl": "https://hentai-cosplay-xxx.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: HNI-Scantrad",
-    "pkg": "eu.kanade.tachiyomi.extension.all.hniscantrad",
-    "apk": "tachiyomi-all.hniscantrad-v1.4.9.apk",
-    "lang": "all",
-    "code": 9,
-    "version": "1.4.9",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "HNI-Scantrad",
-        "lang": "all",
-        "id": "4972198006998831006",
-        "baseUrl": "https://hni-scantrad.net",
         "versionId": 1
       }
     ]
