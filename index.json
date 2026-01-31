@@ -7234,24 +7234,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: BlossomManhwa",
-    "pkg": "eu.kanade.tachiyomi.extension.all.sakuramanhwa",
-    "apk": "tachiyomi-all.sakuramanhwa-v1.4.3.apk",
-    "lang": "all",
-    "code": 3,
-    "version": "1.4.3",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "BlossomManhwa",
-        "lang": "all",
-        "id": "1781921631032816989",
-        "baseUrl": "https://api.blossommanhwa.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Sandra and Woo",
     "pkg": "eu.kanade.tachiyomi.extension.all.sandraandwoo",
     "apk": "tachiyomi-all.sandraandwoo-v1.4.2.apk",
