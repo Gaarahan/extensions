@@ -900,24 +900,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Elite Babes",
-    "pkg": "eu.kanade.tachiyomi.extension.all.elitebabes",
-    "apk": "tachiyomi-all.elitebabes-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Elite Babes",
-        "lang": "all",
-        "id": "6842598531101194683",
-        "baseUrl": "https://www.elitebabes.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Everia.club",
     "pkg": "eu.kanade.tachiyomi.extension.all.everiaclub",
     "apk": "tachiyomi-all.everiaclub-v1.4.9.apk",
@@ -954,24 +936,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Femjoy Hunter",
-    "pkg": "eu.kanade.tachiyomi.extension.all.femjoyhunter",
-    "apk": "tachiyomi-all.femjoyhunter-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Femjoy Hunter",
-        "lang": "all",
-        "id": "9185590742756804817",
-        "baseUrl": "https://www.femjoyhunter.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: FoolSlide Customizable",
     "pkg": "eu.kanade.tachiyomi.extension.all.foolslidecustomizable",
     "apk": "tachiyomi-all.foolslidecustomizable-v1.4.4.apk",
@@ -985,24 +949,6 @@
         "lang": "other",
         "id": "6351052922295965587",
         "baseUrl": "https://127.0.0.1",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: FTV Hunter",
-    "pkg": "eu.kanade.tachiyomi.extension.all.ftvhunter",
-    "apk": "tachiyomi-all.ftvhunter-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "FTV Hunter",
-        "lang": "all",
-        "id": "2424130356866336342",
-        "baseUrl": "https://www.ftvhunter.com",
         "versionId": 1
       }
     ]
@@ -1408,255 +1354,6 @@
         "lang": "all",
         "id": "3422463439145930309",
         "baseUrl": "https://hentai-cosplay-xxx.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: HentaiHand",
-    "pkg": "eu.kanade.tachiyomi.extension.all.hentaihand",
-    "apk": "tachiyomi-all.hentaihand-v1.4.9.apk",
-    "lang": "all",
-    "code": 9,
-    "version": "1.4.9",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "HentaiHand",
-        "lang": "all",
-        "id": "1235047015955289468",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "en",
-        "id": "1438773694780928937",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "zh",
-        "id": "866133291730804205",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "ja",
-        "id": "4992571563369273240",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "other",
-        "id": "7302549142935671434",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "eo",
-        "id": "6189674531673390664",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "ceb",
-        "id": "2136686110556284465",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "cs",
-        "id": "6818645358118704394",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "ar",
-        "id": "5494684486943087247",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "sk",
-        "id": "3548394435548008920",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "mn",
-        "id": "4197081087116305652",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "uk",
-        "id": "299569391162966579",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "la",
-        "id": "3078530910469685147",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "tl",
-        "id": "8205998909543626240",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "es",
-        "id": "1049245690865797006",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "it",
-        "id": "8272502917504358946",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "ko",
-        "id": "2772498967425526818",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "th",
-        "id": "392245224742696225",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "pl",
-        "id": "6173663752022195918",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "fr",
-        "id": "2304134427430911086",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "pt-BR",
-        "id": "2516244587139644000",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "de",
-        "id": "8300414741852788090",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "fi",
-        "id": "4855613465785451164",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "ru",
-        "id": "5788099943016900736",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "hu",
-        "id": "6490746811386262494",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "id",
-        "id": "202981519301875762",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "vi",
-        "id": "474754362133655719",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "nl",
-        "id": "7899387259192038112",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "hi",
-        "id": "1337874080374168573",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "tr",
-        "id": "6304497572870246566",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "el",
-        "id": "9098484674492839156",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "sr",
-        "id": "259350817779848434",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "jv",
-        "id": "8174384290387590645",
-        "baseUrl": "https://hentaihand.com",
-        "versionId": 1
-      },
-      {
-        "name": "HentaiHand",
-        "lang": "bg",
-        "id": "7561346598466986562",
-        "baseUrl": "https://hentaihand.com",
         "versionId": 1
       }
     ]
@@ -4251,24 +3948,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Metart Hunter",
-    "pkg": "eu.kanade.tachiyomi.extension.all.metarthunter",
-    "apk": "tachiyomi-all.metarthunter-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Metart Hunter",
-        "lang": "all",
-        "id": "3567512546321944475",
-        "baseUrl": "https://www.metarthunter.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Miau Scan",
     "pkg": "eu.kanade.tachiyomi.extension.all.miauscan",
     "apk": "tachiyomi-all.miauscan-v1.4.36.apk",
@@ -4294,24 +3973,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Mihentai",
-    "pkg": "eu.kanade.tachiyomi.extension.all.mihentai",
-    "apk": "tachiyomi-all.mihentai-v1.4.32.apk",
-    "lang": "all",
-    "code": 32,
-    "version": "1.4.32",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Mihentai",
-        "lang": "all",
-        "id": "3558188315762724556",
-        "baseUrl": "https://mihentai.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: MissKon",
     "pkg": "eu.kanade.tachiyomi.extension.all.misskon",
     "apk": "tachiyomi-all.misskon-v1.4.2.apk",
@@ -4325,24 +3986,6 @@
         "lang": "all",
         "id": "492049561920540214",
         "baseUrl": "https://misskon.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Mitaku",
-    "pkg": "eu.kanade.tachiyomi.extension.all.mitaku",
-    "apk": "tachiyomi-all.mitaku-v1.4.3.apk",
-    "lang": "all",
-    "code": 3,
-    "version": "1.4.3",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Mitaku",
-        "lang": "all",
-        "id": "7541045796029140694",
-        "baseUrl": "https://mitaku.net",
         "versionId": 1
       }
     ]
@@ -5216,24 +4859,6 @@
         "lang": "zh",
         "id": "6934645150441404855",
         "baseUrl": "https://www.pixiv.net",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Playmate Hunter",
-    "pkg": "eu.kanade.tachiyomi.extension.all.playmatehunter",
-    "apk": "tachiyomi-all.playmatehunter-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Playmate Hunter",
-        "lang": "all",
-        "id": "1082062847119890629",
-        "baseUrl": "https://pmatehunter.com",
         "versionId": 1
       }
     ]
@@ -6457,24 +6082,6 @@
         "lang": "vi",
         "id": "1095360057008481090",
         "baseUrl": "https://weebdex.org",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: XArt Hunter",
-    "pkg": "eu.kanade.tachiyomi.extension.all.xarthunter",
-    "apk": "tachiyomi-all.xarthunter-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "XArt Hunter",
-        "lang": "all",
-        "id": "7425515716363969566",
-        "baseUrl": "https://www.xarthunter.com",
         "versionId": 1
       }
     ]
