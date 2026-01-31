@@ -445,38 +445,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Komga",
-    "pkg": "eu.kanade.tachiyomi.extension.all.komga",
-    "apk": "tachiyomi-all.komga-v1.4.64.apk",
-    "lang": "all",
-    "code": 64,
-    "version": "1.4.64",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Komga",
-        "lang": "all",
-        "id": "4508733312114627536",
-        "baseUrl": "",
-        "versionId": 1
-      },
-      {
-        "name": "Komga (2)",
-        "lang": "all",
-        "id": "8074481155021144106",
-        "baseUrl": "",
-        "versionId": 1
-      },
-      {
-        "name": "Komga (3)",
-        "lang": "all",
-        "id": "5132811728275817394",
-        "baseUrl": "",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: LANraragi",
     "pkg": "eu.kanade.tachiyomi.extension.all.lanraragi",
     "apk": "tachiyomi-all.lanraragi-v1.4.20.apk",
@@ -1582,24 +1550,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Armageddon",
-    "pkg": "eu.kanade.tachiyomi.extension.en.armageddon",
-    "apk": "tachiyomi-en.armageddon-v1.4.31.apk",
-    "lang": "en",
-    "code": 31,
-    "version": "1.4.31",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Armageddon",
-        "lang": "en",
-        "id": "1281315089117038639",
-        "baseUrl": "https://www.silentquill.net",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Art Lapsa",
     "pkg": "eu.kanade.tachiyomi.extension.en.artlapsa",
     "apk": "tachiyomi-en.artlapsa-v1.4.19.apk",
@@ -1649,24 +1599,6 @@
         "lang": "en",
         "id": "2559570015828016575",
         "baseUrl": "https://vortexscans.org",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Arya Scans",
-    "pkg": "eu.kanade.tachiyomi.extension.en.aryascans",
-    "apk": "tachiyomi-en.aryascans-v1.4.46.apk",
-    "lang": "en",
-    "code": 46,
-    "version": "1.4.46",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Arya Scans",
-        "lang": "en",
-        "id": "7621724834621233483",
-        "baseUrl": "https://brainrotcomics.com",
         "versionId": 1
       }
     ]
@@ -2297,52 +2229,6 @@
         "lang": "en",
         "id": "6046229364509226922",
         "baseUrl": "https://dxdscans.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Dynasty",
-    "pkg": "eu.kanade.tachiyomi.extension.en.dynasty",
-    "apk": "tachiyomi-en.dynasty-v1.4.28.apk",
-    "lang": "en",
-    "code": 28,
-    "version": "1.4.28",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Dynasty Scans",
-        "lang": "en",
-        "id": "669095474988166464",
-        "baseUrl": "https://dynasty-scans.com",
-        "versionId": 1
-      },
-      {
-        "name": "Dynasty-Anthologies (Deprecated)",
-        "lang": "en",
-        "id": "738706855355689486",
-        "baseUrl": "https://dynasty-scans.com",
-        "versionId": 1
-      },
-      {
-        "name": "Dynasty-Chapters (Deprecated)",
-        "lang": "en",
-        "id": "4399127807078496448",
-        "baseUrl": "https://dynasty-scans.com",
-        "versionId": 1
-      },
-      {
-        "name": "Dynasty-Doujins (Deprecated)",
-        "lang": "en",
-        "id": "6243685045159195166",
-        "baseUrl": "https://dynasty-scans.com",
-        "versionId": 1
-      },
-      {
-        "name": "Dynasty-Issues (Deprecated)",
-        "lang": "en",
-        "id": "2548005429321146934",
-        "baseUrl": "https://dynasty-scans.com",
         "versionId": 1
       }
     ]
