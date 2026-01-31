@@ -3890,24 +3890,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: IsekaiScan.top (unoriginal)",
-    "pkg": "eu.kanade.tachiyomi.extension.en.isekaiscantop",
-    "apk": "tachiyomi-en.isekaiscantop-v1.4.46.apk",
-    "lang": "en",
-    "code": 46,
-    "version": "1.4.46",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "IsekaiScan.top (unoriginal)",
-        "lang": "en",
-        "id": "2873205829711053655",
-        "baseUrl": "https://isekaiscan.top",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: S2Manga.io",
     "pkg": "eu.kanade.tachiyomi.extension.en.jimanga",
     "apk": "tachiyomi-en.jimanga-v1.4.46.apk",
