@@ -341,16 +341,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: FoolSlide Customizable",
-    "pkg": "eu.kanade.tachiyomi.extension.all.foolslidecustomizable",
-    "apk": "tachiyomi-all.foolslidecustomizable-v1.4.4.apk",
-    "lang": "all",
-    "code": 4,
-    "version": "1.4.4",
-    "nsfw": 0,
-    "sources": []
-  },
-  {
     "name": "Tachiyomi: GlobalComix",
     "pkg": "eu.kanade.tachiyomi.extension.all.globalcomix",
     "apk": "tachiyomi-all.globalcomix-v1.4.1.apk",
@@ -1194,16 +1184,6 @@
         "versionId": 1
       }
     ]
-  },
-  {
-    "name": "Tachiyomi: Miau Scan",
-    "pkg": "eu.kanade.tachiyomi.extension.all.miauscan",
-    "apk": "tachiyomi-all.miauscan-v1.4.36.apk",
-    "lang": "all",
-    "code": 36,
-    "version": "1.4.36",
-    "nsfw": 1,
-    "sources": []
   },
   {
     "name": "Tachiyomi: MissKon",
