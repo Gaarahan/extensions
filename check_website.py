@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-网站可访问性检测脚本
+网站可访问性检测脚本（并行版本）
 检测所有插件的 baseUrl 是否可访问（直连 + 代理两种方式）
 """
 
@@ -11,9 +11,12 @@ import urllib.error
 import ssl
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import datetime
 
 PROXY = "http://127.0.0.1:7890"
 TIMEOUT = 10
+MAX_WORKERS = 20
+LOG_FILE = "check_output.log"
 
 def check_url(url, use_proxy=False):
     """检测 URL 是否可访问"""
@@ -41,8 +44,34 @@ def check_url(url, use_proxy=False):
     except Exception as e:
         return False
 
+def check_url_pair(args):
+    """检测一个URL的直连和代理状态"""
+    url, idx, total = args
+    direct_ok = check_url(url, use_proxy=False)
+    proxy_ok = check_url(url, use_proxy=True)
+    
+    status = ""
+    if direct_ok and proxy_ok:
+        status = "✅ 直连 ✅ 代理"
+    elif direct_ok and not proxy_ok:
+        status = "✅ 直连 ❌ 代理"
+    elif not direct_ok and proxy_ok:
+        status = "❌ 直连 ✅ 代理"
+    else:
+        status = "❌ 直连 ❌ 代理"
+    
+    return {
+        'idx': idx,
+        'total': total,
+        'url': url,
+        'status': status,
+        'direct_ok': direct_ok,
+        'proxy_ok': proxy_ok
+    }
+
 def main():
     index_json_path = 'index.json'
+    log_path = LOG_FILE
     
     with open(index_json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -64,65 +93,100 @@ def main():
                     extensions_info[key]['names'].append(name)
     
     urls = list(extensions_info.keys())
-    print(f"共检测 {len(urls)} 个唯一 URL...\n")
+    total = len(urls)
+    
+    print(f"共检测 {total} 个唯一 URL (并行 {MAX_WORKERS} 个线程)...")
     print("=" * 80)
     
-    results = {
-        'both_unreachable': [],
-        'direct_only': [],
-        'proxy_only': [],
-        'both_reachable': []
-    }
-    
-    for i, url in enumerate(urls, 1):
-        print(f"[{i}/{len(urls)}] 检测: {url}", end=' ... ', flush=True)
+    with open(log_path, 'w', encoding='utf-8') as log_file:
+        log_file.write(f"检测时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+        log_file.write(f"共检测 {total} 个唯一 URL\n")
+        log_file.write("=" * 80 + "\n")
         
-        direct_ok = check_url(url, use_proxy=False)
-        proxy_ok = check_url(url, use_proxy=True)
+        results = {
+            'both_unreachable': [],
+            'direct_only': [],
+            'proxy_only': [],
+            'both_reachable': []
+        }
         
-        if direct_ok and proxy_ok:
-            results['both_reachable'].append(extensions_info[url])
-            print("✅ 直连 ✅ 代理")
-        elif direct_ok and not proxy_ok:
-            results['direct_only'].append(extensions_info[url])
-            print("✅ 直连 ❌ 代理")
-        elif not direct_ok and proxy_ok:
-            results['proxy_only'].append(extensions_info[url])
-            print("❌ 直连 ✅ 代理")
-        else:
-            results['both_unreachable'].append(extensions_info[url])
-            print("❌ 直连 ❌ 代理")
-    
-    print("\n" + "=" * 80)
-    print("\n📊 检测结果汇总:")
-    print(f"   双向可达 (直连+代理): {len(results['both_reachable'])}")
-    print(f"   仅直连可达: {len(results['direct_only'])}")
-    print(f"   仅代理可达: {len(results['proxy_only'])}")
-    print(f"   双向不可达: {len(results['both_unreachable'])}")
-    
-    print("\n" + "=" * 80)
-    print("\n🔴 不可访问的插件列表 (直连和代理都失败):\n")
-    
-    for info in results['both_unreachable']:
-        for name in info['names']:
-            print(f"   - {name}")
-            print(f"     URL: {info['baseUrl']}")
-    
-    if results['proxy_only']:
-        print("\n🟡 仅代理可访问 (直连失败):\n")
-        for info in results['proxy_only']:
+        tasks = [(url, i+1, total) for i, url in enumerate(urls)]
+        
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+            futures = {executor.submit(check_url_pair, task): task for task in tasks}
+            
+            completed = 0
+            for future in as_completed(futures):
+                result = future.result()
+                completed += 1
+                
+                log_line = f"[{completed}/{total}] 检测: {result['url']} ... {result['status']}\n"
+                print(log_line.strip())
+                log_file.write(log_line)
+                log_file.flush()
+                
+                info = extensions_info[result['url']]
+                if result['direct_ok'] and result['proxy_ok']:
+                    results['both_reachable'].append(info)
+                elif result['direct_ok'] and not result['proxy_ok']:
+                    results['direct_only'].append(info)
+                elif not result['direct_ok'] and result['proxy_ok']:
+                    results['proxy_only'].append(info)
+                else:
+                    results['both_unreachable'].append(info)
+        
+        print("\n" + "=" * 80)
+        log_file.write("\n" + "=" * 80 + "\n")
+        
+        summary = f"\n📊 检测结果汇总:\n"
+        summary += f"   双向可达 (直连+代理): {len(results['both_reachable'])}\n"
+        summary += f"   仅直连可达: {len(results['direct_only'])}\n"
+        summary += f"   仅代理可达: {len(results['proxy_only'])}\n"
+        summary += f"   双向不可达: {len(results['both_unreachable'])}\n"
+        
+        print(summary)
+        log_file.write(summary)
+        
+        print("\n" + "=" * 80)
+        log_file.write("\n" + "=" * 80 + "\n")
+        
+        unreachable_output = "\n🔴 不可访问的插件列表 (直连和代理都失败):\n\n"
+        print(unreachable_output)
+        log_file.write(unreachable_output)
+        
+        for info in results['both_unreachable']:
             for name in info['names']:
-                print(f"   - {name}")
-                print(f"     URL: {info['baseUrl']}")
+                line = f"   - {name}\n     URL: {info['baseUrl']}\n"
+                print(line)
+                log_file.write(line)
+        
+        if results['proxy_only']:
+            proxy_output = "\n🟡 仅代理可访问 (直连失败):\n\n"
+            print(proxy_output)
+            log_file.write(proxy_output)
+            
+            for info in results['proxy_only']:
+                for name in info['names']:
+                    line = f"   - {name}\n     URL: {info['baseUrl']}\n"
+                    print(line)
+                    log_file.write(line)
+        
+        if results['direct_only']:
+            direct_output = "\n🟢 仅直连可访问 (代理失败):\n\n"
+            print(direct_output)
+            log_file.write(direct_output)
+            
+            for info in results['direct_only']:
+                for name in info['names']:
+                    line = f"   - {name}\n     URL: {info['baseUrl']}\n"
+                    print(line)
+                    log_file.write(line)
+        
+        print("\n" + "=" * 80)
+        log_file.write("\n" + "=" * 80 + "\n")
+        log_file.write(f"日志已保存到: {log_path}\n")
     
-    if results['direct_only']:
-        print("\n🟢 仅直连可访问 (代理失败):\n")
-        for info in results['direct_only']:
-            for name in info['names']:
-                print(f"   - {name}")
-                print(f"     URL: {info['baseUrl']}")
-    
-    print("\n" + "=" * 80)
+    print(f"\n✅ 检测完成，日志已保存到: {log_path}")
 
 if __name__ == "__main__":
     main()

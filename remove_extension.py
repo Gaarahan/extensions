@@ -2,6 +2,7 @@
 """
 Tachiyomi Extensions 清理脚本
 用于删除指定的插件及其所有相关资源（JSON、APK、图标、HTML链接）
+支持白名单，跳过白名单中的网站
 """
 
 import json
@@ -9,6 +10,18 @@ import os
 import sys
 import re
 
+WHITELIST_FILE = 'whitelist.txt'
+
+def load_whitelist():
+    """加载白名单"""
+    whitelist = set()
+    if os.path.exists(WHITELIST_FILE):
+        with open(WHITELIST_FILE, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith('#'):
+                    whitelist.add(line.rstrip('/'))
+    return whitelist
 
 def remove_extension(extension_name, base_dir='.'):
     """
@@ -44,6 +57,14 @@ def remove_extension(extension_name, base_dir='.'):
     if not found_item:
         print(f"❌ 未找到 '{extension_name}' 插件")
         return False
+    
+    whitelist = load_whitelist()
+    sources = found_item.get('sources', [])
+    for source in sources:
+        base_url = source.get('baseUrl', '').rstrip('/')
+        if base_url in whitelist:
+            print(f"❌ 错误: '{found_item.get('name')}' 的 baseUrl ({base_url}) 在白名单中，拒绝删除")
+            return False
     
     print(f"找到插件: {found_item.get('name')}")
     print(f"包名: {found_item.get('pkg')}")
