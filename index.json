@@ -452,42 +452,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Manhwa-raw",
-    "pkg": "eu.kanade.tachiyomi.extension.all.manhwadashraw",
-    "apk": "tachiyomi-all.manhwadashraw-v1.4.46.apk",
-    "lang": "all",
-    "code": 46,
-    "version": "1.4.46",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Manhwa-raw",
-        "lang": "all",
-        "id": "5617855959190673282",
-        "baseUrl": "https://manhwa-raw.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: MayoTune",
-    "pkg": "eu.kanade.tachiyomi.extension.all.mayotune",
-    "apk": "tachiyomi-all.mayotune-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "MayoTune",
-        "lang": "en",
-        "id": "1480743237782384863",
-        "baseUrl": "https://mayotune.xyz",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: MissKon",
     "pkg": "eu.kanade.tachiyomi.extension.all.misskon",
     "apk": "tachiyomi-all.misskon-v1.4.2.apk",
@@ -501,67 +465,6 @@
         "lang": "all",
         "id": "492049561920540214",
         "baseUrl": "https://misskon.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: MyReadingManga",
-    "pkg": "eu.kanade.tachiyomi.extension.all.myreadingmanga",
-    "apk": "tachiyomi-all.myreadingmanga-v1.4.60.apk",
-    "lang": "all",
-    "code": 60,
-    "version": "1.4.60",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "MyReadingManga",
-        "lang": "zh",
-        "id": "8339625080404115366",
-        "baseUrl": "https://myreadingmanga.info",
-        "versionId": 1
-      },
-      {
-        "name": "MyReadingManga",
-        "lang": "en",
-        "id": "6318378620301107421",
-        "baseUrl": "https://myreadingmanga.info",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Niadd",
-    "pkg": "eu.kanade.tachiyomi.extension.all.niadd",
-    "apk": "tachiyomi-all.niadd-v1.4.1.apk",
-    "lang": "all",
-    "code": 1,
-    "version": "1.4.1",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Niadd",
-        "lang": "en",
-        "id": "6237269852978906906",
-        "baseUrl": "https://www.niadd.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: NineManga",
-    "pkg": "eu.kanade.tachiyomi.extension.all.ninemanga",
-    "apk": "tachiyomi-all.ninemanga-v1.4.25.apk",
-    "lang": "all",
-    "code": 25,
-    "version": "1.4.25",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "NineMangaEn",
-        "lang": "en",
-        "id": "120391793502126753",
-        "baseUrl": "https://www.ninemanga.com",
         "versionId": 1
       }
     ]
