@@ -176,24 +176,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Kiutaku",
-    "pkg": "eu.kanade.tachiyomi.extension.all.kiutaku",
-    "apk": "tachiyomi-all.kiutaku-v1.4.3.apk",
-    "lang": "all",
-    "code": 3,
-    "version": "1.4.3",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Kiutaku",
-        "lang": "all",
-        "id": "3040035304874076216",
-        "baseUrl": "https://kiutaku.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: SchaleNetwork",
     "pkg": "eu.kanade.tachiyomi.extension.all.koharu",
     "apk": "tachiyomi-all.koharu-v1.4.17.apk",
@@ -257,31 +239,6 @@
         "lang": "en",
         "id": "6084907896154116083",
         "baseUrl": "https://mangafire.to",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: MangaForFree.net",
-    "pkg": "eu.kanade.tachiyomi.extension.all.mangaforfree",
-    "apk": "tachiyomi-all.mangaforfree-v1.4.46.apk",
-    "lang": "all",
-    "code": 46,
-    "version": "1.4.46",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "MangaForFree.net",
-        "lang": "en",
-        "id": "7450882931813509619",
-        "baseUrl": "https://mangaforfree.net",
-        "versionId": 1
-      },
-      {
-        "name": "MangaForFree.net",
-        "lang": "all",
-        "id": "3147518065805706",
-        "baseUrl": "https://mangaforfree.net",
         "versionId": 1
       }
     ]
@@ -628,24 +585,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Pepper&Carrot",
-    "pkg": "eu.kanade.tachiyomi.extension.all.peppercarrot",
-    "apk": "tachiyomi-all.peppercarrot-v1.4.4.apk",
-    "lang": "all",
-    "code": 4,
-    "version": "1.4.4",
-    "nsfw": 0,
-    "sources": [
-      {
-        "name": "Pepper&Carrot",
-        "lang": "all",
-        "id": "279282683217001983",
-        "baseUrl": "https://www.peppercarrot.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Photos18",
     "pkg": "eu.kanade.tachiyomi.extension.all.photos18",
     "apk": "tachiyomi-all.photos18-v1.4.6.apk",
@@ -904,24 +843,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Adult Webtoon",
-    "pkg": "eu.kanade.tachiyomi.extension.en.adultwebtoon",
-    "apk": "tachiyomi-en.adultwebtoon-v1.4.49.apk",
-    "lang": "en",
-    "code": 49,
-    "version": "1.4.49",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Adult Webtoon",
-        "lang": "en",
-        "id": "3136868295051070813",
-        "baseUrl": "https://adultwebtoon.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: Alandal",
     "pkg": "eu.kanade.tachiyomi.extension.en.alandal",
     "apk": "tachiyomi-en.alandal-v1.4.1.apk",
@@ -971,24 +892,6 @@
         "lang": "en",
         "id": "8547397037512613554",
         "baseUrl": "https://allporncomic.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: AP Comics",
-    "pkg": "eu.kanade.tachiyomi.extension.en.apcomics",
-    "apk": "tachiyomi-en.apcomics-v1.4.45.apk",
-    "lang": "en",
-    "code": 45,
-    "version": "1.4.45",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "AP Comics",
-        "lang": "en",
-        "id": "7848750588298461115",
-        "baseUrl": "https://apcomics.org",
         "versionId": 1
       }
     ]
@@ -1277,24 +1180,6 @@
         "lang": "en",
         "id": "3819152328997277823",
         "baseUrl": "https://beehentai.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: BookWalker Global",
-    "pkg": "eu.kanade.tachiyomi.extension.en.bookwalker",
-    "apk": "tachiyomi-en.bookwalker-v1.4.5.apk",
-    "lang": "en",
-    "code": 5,
-    "version": "1.4.5",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "BookWalker Global",
-        "lang": "en",
-        "id": "2744810059574599668",
-        "baseUrl": "https://global.bookwalker.jp",
         "versionId": 1
       }
     ]
@@ -1799,24 +1684,6 @@
         "lang": "en",
         "id": "8018442833412213616",
         "baseUrl": "https://epicmanga.co",
-        "versionId": 1
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: Eris Scans",
-    "pkg": "eu.kanade.tachiyomi.extension.en.erisscans",
-    "apk": "tachiyomi-en.erisscans-v1.4.18.apk",
-    "lang": "en",
-    "code": 18,
-    "version": "1.4.18",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "Eris Scans",
-        "lang": "en",
-        "id": "8358420357808595754",
-        "baseUrl": "https://erisscans.com",
         "versionId": 1
       }
     ]
@@ -5242,24 +5109,6 @@
     ]
   },
   {
-    "name": "Tachiyomi: Novel24h",
-    "pkg": "eu.kanade.tachiyomi.extension.en.novel24h",
-    "apk": "tachiyomi-en.novel24h-v1.4.45.apk",
-    "lang": "en",
-    "code": 45,
-    "version": "1.4.45",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "24HNovel",
-        "lang": "en",
-        "id": "8392183862780411192",
-        "baseUrl": "https://24hnovel.com",
-        "versionId": 1
-      }
-    ]
-  },
-  {
     "name": "Tachiyomi: NovelCrow",
     "pkg": "eu.kanade.tachiyomi.extension.en.novelcrow",
     "apk": "tachiyomi-en.novelcrow-v1.4.45.apk",
@@ -5418,24 +5267,6 @@
         "id": "1534451209269193504",
         "baseUrl": "https://omegascans.org",
         "versionId": 2
-      }
-    ]
-  },
-  {
-    "name": "Tachiyomi: 1Manga.co",
-    "pkg": "eu.kanade.tachiyomi.extension.en.onemangaco",
-    "apk": "tachiyomi-en.onemangaco-v1.4.34.apk",
-    "lang": "en",
-    "code": 34,
-    "version": "1.4.34",
-    "nsfw": 1,
-    "sources": [
-      {
-        "name": "1Manga.co",
-        "lang": "en",
-        "id": "6314378952940608115",
-        "baseUrl": "https://1manga.co",
-        "versionId": 1
       }
     ]
   },
