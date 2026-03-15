@@ -1,9 +1,0 @@
-# 网站白名单 - 清理操作时跳过这些网站
-# 格式：精确匹配 baseUrl
-https://webniichan.online
-https://batcave.biz
-https://mangabz.com
-https://mycomic.com
-https://18comic.vip
-https://xoxocomic.com
-https://readallcomics.com
