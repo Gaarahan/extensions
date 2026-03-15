@@ -40,25 +40,32 @@ def check_url(url, use_proxy=False):
         })
         
         response = opener.open(req, timeout=TIMEOUT)
-        return response.status == 200
+        if response.status != 200:
+            return False, "非200状态码"
+        
+        content = response.read().decode('utf-8', errors='ignore')
+        if '<title>404' in content or '<title>404 Not Found' in content or '<h1>404</h1>' in content:
+            return False, "假404(HTTP 200但内容是404)"
+        
+        return True, "OK"
     except Exception as e:
-        return False
+        return False, str(e)
 
 def check_url_pair(args):
     """检测一个URL的直连和代理状态"""
     url, idx, total = args
-    direct_ok = check_url(url, use_proxy=False)
-    proxy_ok = check_url(url, use_proxy=True)
+    direct_ok, direct_msg = check_url(url, use_proxy=False)
+    proxy_ok, proxy_msg = check_url(url, use_proxy=True)
     
     status = ""
     if direct_ok and proxy_ok:
         status = "✅ 直连 ✅ 代理"
     elif direct_ok and not proxy_ok:
-        status = "✅ 直连 ❌ 代理"
+        status = f"✅ 直连 ❌ 代理 ({proxy_msg})"
     elif not direct_ok and proxy_ok:
-        status = "❌ 直连 ✅ 代理"
+        status = f"❌ 直连 ({direct_msg}) ✅ 代理"
     else:
-        status = "❌ 直连 ❌ 代理"
+        status = f"❌ 直连 ({direct_msg}) ❌ 代理 ({proxy_msg})"
     
     return {
         'idx': idx,
