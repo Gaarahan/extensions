@@ -9,27 +9,6 @@
   "extensionList": {
     "extensions": [
       {
-        "name": "AHottie",
-        "packageName": "eu.kanade.tachiyomi.extension.all.ahottie",
-        "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions@repo/apk/tachiyomi-all.ahottie-v1.6.4.apk",
-          "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/ahottie/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://raw.githubusercontent.com/keiyoushi/extensions/repo/jar/tachiyomi-all.ahottie-v1.6.4.jar"
-        },
-        "extensionLib": "1.6",
-        "versionCode": "4",
-        "versionName": "1.6.4",
-        "contentWarning": "CONTENT_WARNING_NSFW",
-        "sources": [
-          {
-            "id": "6289731484943315811",
-            "name": "AHottie",
-            "language": "all",
-            "homeUrl": "https://ahottie.top"
-          }
-        ]
-      },
-      {
         "name": "AllPornComics.co",
         "packageName": "eu.kanade.tachiyomi.extension.all.allporncomicsco",
         "resources": {
@@ -1534,51 +1513,6 @@
         ]
       },
       {
-        "name": "Pixiv",
-        "packageName": "eu.kanade.tachiyomi.extension.all.pixiv",
-        "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions@repo/apk/tachiyomi-all.pixiv-v1.4.12.apk",
-          "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/pixiv/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://raw.githubusercontent.com/keiyoushi/extensions/repo/jar/tachiyomi-all.pixiv-v1.4.12.jar"
-        },
-        "extensionLib": "1.4",
-        "versionCode": "12",
-        "versionName": "1.4.12",
-        "contentWarning": "CONTENT_WARNING_MIXED",
-        "sources": [
-          {
-            "id": "4964829535501435742",
-            "name": "Pixiv",
-            "language": "en",
-            "homeUrl": "https://www.pixiv.net"
-          },
-          {
-            "id": "2134233417037741790",
-            "name": "Pixiv",
-            "language": "ja",
-            "homeUrl": "https://www.pixiv.net"
-          },
-          {
-            "id": "6934645150441404855",
-            "name": "Pixiv",
-            "language": "zh",
-            "homeUrl": "https://www.pixiv.net"
-          },
-          {
-            "id": "7732030561788182970",
-            "name": "Pixiv",
-            "language": "zh-tw",
-            "homeUrl": "https://www.pixiv.net"
-          },
-          {
-            "id": "5123765142540943901",
-            "name": "Pixiv",
-            "language": "ko",
-            "homeUrl": "https://www.pixiv.net"
-          }
-        ]
-      },
-      {
         "name": "PornPics",
         "packageName": "eu.kanade.tachiyomi.extension.all.pornpics",
         "resources": {
@@ -2388,27 +2322,6 @@
             "name": "Asura Scans",
             "language": "en",
             "homeUrl": "https://asurascans.com"
-          }
-        ]
-      },
-      {
-        "name": "Athrea Scans",
-        "packageName": "eu.kanade.tachiyomi.extension.en.athreascans",
-        "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions@repo/apk/tachiyomi-en.athreascans-v1.4.33.apk",
-          "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/athreascans/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://raw.githubusercontent.com/keiyoushi/extensions/repo/jar/tachiyomi-en.athreascans-v1.4.33.jar"
-        },
-        "extensionLib": "1.4",
-        "versionCode": "33",
-        "versionName": "1.4.33",
-        "contentWarning": "CONTENT_WARNING_MIXED",
-        "sources": [
-          {
-            "id": "427734044452073936",
-            "name": "Athrea Scans",
-            "language": "en",
-            "homeUrl": "https://athreascans.com"
           }
         ]
       },
@@ -3312,27 +3225,6 @@
             "name": "GalaxyDegenScans",
             "language": "en",
             "homeUrl": "https://gdscans.com"
-          }
-        ]
-      },
-      {
-        "name": "Galaxy Manga",
-        "packageName": "eu.kanade.tachiyomi.extension.en.galaxymanga",
-        "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions@repo/apk/tachiyomi-en.galaxymanga-v1.4.32.apk",
-          "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/galaxymanga/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://raw.githubusercontent.com/keiyoushi/extensions/repo/jar/tachiyomi-en.galaxymanga-v1.4.32.jar"
-        },
-        "extensionLib": "1.4",
-        "versionCode": "32",
-        "versionName": "1.4.32",
-        "contentWarning": "CONTENT_WARNING_MIXED",
-        "sources": [
-          {
-            "id": "3084421114955435608",
-            "name": "Galaxy Manga",
-            "language": "en",
-            "homeUrl": "https://galaxymanga.io"
           }
         ]
       },
@@ -13516,31 +13408,6 @@
             "name": "92漫画",
             "language": "zh",
             "homeUrl": "http://www.92mh.com"
-          }
-        ]
-      },
-      {
-        "name": "Komiic",
-        "packageName": "eu.kanade.tachiyomi.extension.zh.komiic",
-        "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions@repo/apk/tachiyomi-zh.komiic-v1.6.10.apk",
-          "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/zh/komiic/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://raw.githubusercontent.com/keiyoushi/extensions/repo/jar/tachiyomi-zh.komiic-v1.6.10.jar"
-        },
-        "extensionLib": "1.6",
-        "versionCode": "10",
-        "versionName": "1.6.10",
-        "contentWarning": "CONTENT_WARNING_MIXED",
-        "sources": [
-          {
-            "id": "792932060924485302",
-            "name": "Komiic",
-            "language": "zh",
-            "homeUrl": "https://komiic.com",
-            "mirrorUrls": [
-              "https://komiic.com",
-              "https://komiic.cc"
-            ]
           }
         ]
       },
