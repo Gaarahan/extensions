@@ -1,0 +1,4 @@
+interface:
+  display_name: "Extension Source Maintenance"
+  short_description: "Safely remove and synchronize curated manga sources."
+  default_prompt: "Maintain this extensions repository: remove or synchronize a source while preserving all index and asset invariants."
