@@ -9,6 +9,8 @@ Use this skill only inside the `extensions` repository. Treat a source as the pa
 
 ## Remove a source
 
+Run `scripts/remove-sources.mjs --package <exact-package>` from the repository root after resolving each requested source. Repeat `--package` to remove multiple exact packages atomically. The script updates both JSON and protobuf indexes, the HTML listing, blacklist, local assets, and generated reports.
+
 1. Resolve an exact, unique package from `index.json`. If the requested name is absent or ambiguous, report candidates and do not delete anything.
 2. Remove the package from every published representation:
    - `index.json` (`extensionList.extensions`)
@@ -17,7 +19,7 @@ Use this skill only inside the `extensions` repository. Treat a source as the pa
    - matching `apk/`, `jar/`, and local `icon/` assets
 3. Add the package to `config/extension-blacklist.json`. This is required so the next upstream sync cannot restore it.
 4. Remove the package from generated local reports, if present. Do not commit reports unless explicitly requested.
-5. Regenerate or update the protobuf index using the repository's current protobuf generation method. Never leave `index.json` and `index.pb` with different package sets.
+5. Regenerate or update the protobuf index. Never leave `index.json` and `index.pb` with different package sets.
 6. Run `scripts/verify-curated-repo.mjs --package <exact-package>` before committing. It checks the JSON manifest, APK/JAR coverage, and the absence of the just-removed package's assets and HTML link. Also independently verify the protobuf package set matches JSON.
 
 Do not remove similarly named sources. For example, a request for `Hentai3` does not authorize changes to `Hentai3z.CC`.

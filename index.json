@@ -9,27 +9,6 @@
   "extensionList": {
     "extensions": [
       {
-        "name": "AllPornComics.co",
-        "packageName": "eu.kanade.tachiyomi.extension.all.allporncomicsco",
-        "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions@repo/apk/tachiyomi-all.allporncomicsco-v1.4.52.apk",
-          "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/allporncomicsco/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://raw.githubusercontent.com/keiyoushi/extensions/repo/jar/tachiyomi-all.allporncomicsco-v1.4.52.jar"
-        },
-        "extensionLib": "1.4",
-        "versionCode": "52",
-        "versionName": "1.4.52",
-        "contentWarning": "CONTENT_WARNING_NSFW",
-        "sources": [
-          {
-            "id": "6353068724409812158",
-            "name": "AllPornComics.co",
-            "language": "all",
-            "homeUrl": "https://allporncomics.co"
-          }
-        ]
-      },
-      {
         "name": "Buon Dua",
         "packageName": "eu.kanade.tachiyomi.extension.all.buondua",
         "resources": {
@@ -68,27 +47,6 @@
             "name": "CosplayTele",
             "language": "all",
             "homeUrl": "https://cosplaytele.com"
-          }
-        ]
-      },
-      {
-        "name": "e621",
-        "packageName": "eu.kanade.tachiyomi.extension.all.e621",
-        "resources": {
-          "apkUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions@repo/apk/tachiyomi-all.e621-v1.4.3.apk",
-          "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/all/e621/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://raw.githubusercontent.com/keiyoushi/extensions/repo/jar/tachiyomi-all.e621-v1.4.3.jar"
-        },
-        "extensionLib": "1.4",
-        "versionCode": "3",
-        "versionName": "1.4.3",
-        "contentWarning": "CONTENT_WARNING_NSFW",
-        "sources": [
-          {
-            "id": "3580576879040377475",
-            "name": "e621",
-            "language": "all",
-            "homeUrl": "https://e621.net"
           }
         ]
       },
