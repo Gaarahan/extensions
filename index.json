@@ -4986,48 +4986,6 @@
         ]
       },
       {
-        "name": "AllPornComic",
-        "packageName": "eu.kanade.tachiyomi.extension.en.allporncomic",
-        "resources": {
-          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/b035310-0/tachiyomi-en.allporncomic-v1.6.61.apk",
-          "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/allporncomic/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/b035310-0/tachiyomi-en.allporncomic-v1.6.61.jar"
-        },
-        "extensionLib": "1.6",
-        "versionCode": "106061",
-        "versionName": "1.6.61",
-        "contentWarning": "CONTENT_WARNING_NSFW",
-        "sources": [
-          {
-            "id": "8547397037512613554",
-            "name": "AllPornComic",
-            "language": "en",
-            "homeUrl": "https://allporncomic.com"
-          }
-        ]
-      },
-      {
-        "name": "AllPornComic.io",
-        "packageName": "eu.kanade.tachiyomi.extension.en.allporncomicio",
-        "resources": {
-          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/b035310-0/tachiyomi-en.allporncomicio-v1.6.58.apk",
-          "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/allporncomicio/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/b035310-0/tachiyomi-en.allporncomicio-v1.6.58.jar"
-        },
-        "extensionLib": "1.6",
-        "versionCode": "106058",
-        "versionName": "1.6.58",
-        "contentWarning": "CONTENT_WARNING_NSFW",
-        "sources": [
-          {
-            "id": "6660493687892371703",
-            "name": "AllPornComic.io",
-            "language": "en",
-            "homeUrl": "https://allporncomic.io"
-          }
-        ]
-      },
-      {
         "name": "Alpha Manga",
         "packageName": "eu.kanade.tachiyomi.extension.en.alphamanga",
         "resources": {
@@ -5826,27 +5784,6 @@
         ]
       },
       {
-        "name": "Diva Scans",
-        "packageName": "eu.kanade.tachiyomi.extension.en.divascans",
-        "resources": {
-          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/b035310-0/tachiyomi-en.divascans-v1.6.34.apk",
-          "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/divascans/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/b035310-0/tachiyomi-en.divascans-v1.6.34.jar"
-        },
-        "extensionLib": "1.6",
-        "versionCode": "106034",
-        "versionName": "1.6.34",
-        "contentWarning": "CONTENT_WARNING_MIXED",
-        "sources": [
-          {
-            "id": "3513996752712952755",
-            "name": "Diva Scans",
-            "language": "en",
-            "homeUrl": "https://divascans.org"
-          }
-        ]
-      },
-      {
         "name": "Doujins",
         "packageName": "eu.kanade.tachiyomi.extension.en.doujins",
         "resources": {
@@ -5969,27 +5906,6 @@
             "name": "El Goonish Shive",
             "language": "en",
             "homeUrl": "https://www.egscomics.com"
-          }
-        ]
-      },
-      {
-        "name": "18 Porn Comic",
-        "packageName": "eu.kanade.tachiyomi.extension.en.eighteenporncomic",
-        "resources": {
-          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/b035310-0/tachiyomi-en.eighteenporncomic-v1.6.1.apk",
-          "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/lib-multisrc/manga18/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/b035310-0/tachiyomi-en.eighteenporncomic-v1.6.1.jar"
-        },
-        "extensionLib": "1.6",
-        "versionCode": "106001",
-        "versionName": "1.6.1",
-        "contentWarning": "CONTENT_WARNING_NSFW",
-        "sources": [
-          {
-            "id": "5133553291675008671",
-            "name": "18 Porn Comic",
-            "language": "en",
-            "homeUrl": "https://18porncomic.com"
           }
         ]
       },
@@ -12926,27 +12842,6 @@
             "name": "Transfusions",
             "language": "en",
             "homeUrl": "https://transfusionscomic.com"
-          }
-        ]
-      },
-      {
-        "name": "TritiniaScans",
-        "packageName": "eu.kanade.tachiyomi.extension.en.tritiniascans",
-        "resources": {
-          "apkUrl": "https://github.com/keiyoushi/extensions/releases/download/b035310-1/tachiyomi-en.tritiniascans-v1.6.62.apk",
-          "iconUrl": "https://cdn.jsdelivr.net/gh/keiyoushi/extensions-source@main/src/en/tritiniascans/res/mipmap-xhdpi/ic_launcher.png",
-          "jarUrl": "https://github.com/keiyoushi/extensions/releases/download/b035310-1/tachiyomi-en.tritiniascans-v1.6.62.jar"
-        },
-        "extensionLib": "1.6",
-        "versionCode": "106062",
-        "versionName": "1.6.62",
-        "contentWarning": "CONTENT_WARNING_SAFE",
-        "sources": [
-          {
-            "id": "6032516943051342273",
-            "name": "TritiniaScans",
-            "language": "en",
-            "homeUrl": "https://tritinia.org"
           }
         ]
       },
