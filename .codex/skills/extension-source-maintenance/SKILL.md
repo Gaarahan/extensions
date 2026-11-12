@@ -13,6 +13,19 @@ The owner requires previously deleted extensions to stay deleted during every up
 
 Before syncing, audit prior fork deletion commits against the blacklist. Compare package sets before and after each relevant maintenance commit, distinguishing intentional fork removals from upstream removals or renames. Add confirmed missing exclusions before applying upstream changes. If intent or package identity is ambiguous, ask rather than guessing. Do not remove similarly named sources: Hentai3 and Hentai3z.CC are different packages.
 
+## Language retention policy
+
+The owner wants all-language, English, Simplified Chinese and Traditional Chinese packages. Apply `config/language-policy.json` during every cleanup and upstream sync. Match the source language metadata, not a guessed package-name prefix. Keep a whole package if any source is `all`, `en` or `zh`, including hyphenated English/Chinese variants such as `zh-Hans`, `zh-Hant`, `zh-CN`, `zh-TW` and `zh-HK`. Other sources bundled inside a retained multilingual package remain unchanged; deleting metadata would not remove those languages from its APK/JAR.
+
+Explicit exclusions always win, including Hentai Image and Doujiva even though they are tagged `all`. Never restore any blacklist package. Add removed packages to the blacklist so future upstream updates cannot restore them. Newly encountered packages without any allowed source language must also be excluded.
+
+After staging upstream files and applying the existing blacklist, run:
+
+    node .codex/skills/extension-source-maintenance/scripts/clean-languages.mjs --dry-run
+    node .codex/skills/extension-source-maintenance/scripts/clean-languages.mjs
+
+This executable cleanup identifies exact packages from their source metadata and calls the verified removal tool in one batch, updating the indexes, assets and blacklist together. No further clarification of this language rule is needed during a requested future cleanup or upstream sync. This rule does not authorize an unrequested sync or unrelated changes. Its preflight permits otherwise consistent packages pending language cleanup, but its final validation enforces the policy. Do not publish unless the general verifier passes. Preserve `config/language-policy.json` and these checks during every sync.
+
 ## Synchronize upstream
 
 Pin the upstream revision. Apply the entire blacklist to JSON, protobuf, HTML, release-assets.json, and any local APK/JAR/icon assets. Preserve fork-specific repo.json index_v2 and README URLs, config, and maintenance tooling. Use a normal commit based on the current fork head; do not force-reset history.
@@ -26,7 +39,7 @@ Required invariants:
 - If local APK/JAR directories exist, every indexed binary exists there. Otherwise, release URLs have the expected upstream shape and each package has a manifest hash.
 - Release manifest package keys equal the published package set.
 
-Run the verifier, then separately verify remote release assets exist and are uploaded. Manifest validation does not prove download availability or downloaded-byte integrity. Record the pinned revision and verification scope. Check the final remote commit after publication.
+Run the verifier and `node --test .codex/skills/extension-source-maintenance/scripts/language-policy.test.mjs`, then separately verify remote release assets exist and are uploaded. Manifest validation does not prove download availability or downloaded-byte integrity. Record the pinned revision and verification scope. Check the final remote commit after publication.
 
 ## Resolve a name or keyword
 

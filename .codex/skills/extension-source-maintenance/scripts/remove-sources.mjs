@@ -13,7 +13,8 @@ for (let i = 0; i < args.length; i++) {
 }
 if (!packages.length || new Set(packages).size !== packages.length) throw new Error('provide unique exact --package values');
 // Complete validation and construct every replacement before changing any file.
-const current = validate(root);
+// Permit a structurally valid upstream snapshot before language cleanup; final validation enforces policy.
+const current = validate(root, { enforceLanguagePolicy: false });
 const selected = packages.map(pkg => {
   const matches = current.extensions.filter(e => e.packageName === pkg);
   if (matches.length !== 1) throw new Error(`${pkg}: expected exactly one entry, found ${matches.length}`);

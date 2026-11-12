@@ -80,10 +80,22 @@ export function assetMatches(name, pkg) {
 export function htmlLinks(html) {
   return [...html.matchAll(/href=["']([^"']+)["']/g)].map(m => m[1].replaceAll('&amp;', '&'));
 }
+export function matchesLanguagePolicy(extension, policy) {
+  return Array.isArray(extension.sources) && extension.sources.some(source => {
+    const language = String(source.language ?? '').toLowerCase();
+    return policy.allowedLanguageRoots.some(root => language === root || (root !== 'all' && language.startsWith(`${root}-`)));
+  });
+}
+export function readLanguagePolicy(root) {
+  const policy = JSON.parse(readFileSync(join(root, 'config/language-policy.json')));
+  if (!Array.isArray(policy.allowedLanguageRoots) || policy.allowedLanguageRoots.length !== 3 || [...policy.allowedLanguageRoots].sort().join(',') !== 'all,en,zh') throw new Error('invalid language retention policy');
+  return policy;
+}
 export function validate(root, override = {}) {
   const get = name => override[name] ?? readFileSync(join(root, name));
   const index = JSON.parse(get('index.json'));
   const blacklist = new Set(JSON.parse(get('config/extension-blacklist.json')).packages);
+  const policy = readLanguagePolicy(root);
   const extensions = index.extensionList?.extensions;
   if (!Array.isArray(extensions)) throw new Error('missing extensionList.extensions');
   const manifest = existsSync(join(root, 'release-assets.json')) || override['release-assets.json'] ? JSON.parse(get('release-assets.json')) : null;
@@ -104,6 +116,7 @@ export function validate(root, override = {}) {
   for (const e of extensions) {
     const pkg = e.packageName;
     packageStem(pkg);
+    if (override.enforceLanguagePolicy !== false && !matchesLanguagePolicy(e, policy)) throw new Error(`package has no allowed source language: ${pkg}`);
     if (seen.has(pkg) || blacklist.has(pkg)) throw new Error(`duplicate/blacklisted package: ${pkg}`);
     seen.add(pkg);
     const message = pb.get(pkg);

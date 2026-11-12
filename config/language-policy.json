@@ -1,0 +1,4 @@
+{
+  "allowedLanguageRoots": ["all", "en", "zh"],
+  "description": "Keep whole packages containing an all-language, English, or Simplified/Traditional Chinese source (including regional zh tags). Explicit blacklist exclusions take precedence. Never prune bundled sources from a retained package."
+}
